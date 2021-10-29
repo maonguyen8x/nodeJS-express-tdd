@@ -12,10 +12,29 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
-    "morgan": "~1.9.1"
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.14"
   },
   "devDependencies": {
     "jest": "^27.3.1",
     "supertest": "^6.1.6"
-  }
+  },
+  "description": "NodeJS Express Test-Driven API Development (TDD)",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/at-maonv/nodeJS-express-tdd.git"
+  },
+  "keywords": [
+    "tdd"
+  ],
+  "author": "marvin nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/at-maonv/nodeJS-express-tdd/issues"
+  },
+  "homepage": "https://github.com/at-maonv/nodeJS-express-tdd#readme"
 }
